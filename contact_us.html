@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact us|android app development using screen reader</title>
+    <style>
+      nAV li {
+        display: inline;
+      }
+    </style>
+    <img src="android_developers_logo.png" alt="logo of android " />
+    <br />
+  </head>
+  <body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html"> home</a>
+        </li>
+        <li>
+          <a href="pre-requirements.html"> pre-requirements</a>
+        </li>
+        <li>
+          <a href="why_develop_for_android.html"> why develop for android?</a>
+        </li>
+        <li>
+          <a href="resources_and_materials.html"> resources and materials</a>
+        </li>
+        <li><a href="contact_us.html"> contact us</a></li>
+      </ul>
+    </nav>
+    <main id="main">
+      <h1>contact us</h1>
+      <p>
+        If you have any concerns, queries or any thing about our site, feelfree
+        to mail @ aashish@vitechtoday.com and we will reach out to you when we
+        are free. alternatively, fillfree to fill out the form below and we will
+        try to reachout to you very shortly!
+      </p>
+    </main>
+    <div role="form">
+      <label for="yourname">enter your full name:</label>
+      <input type="text" name="yourname" id="yourname" required />
+      <br />
+      <label for="email">Your email:</label>
+      <input type="text" name="email" id="email" required />
+      <br />
+      experience level:
+      <br />
+      <fieldset>
+        <legend>experience level</legend>
+        <input
+          type="radio"
+          name="experience"
+          id="beginner"
+          value="beginner"
+          required
+        />
+        <label for="beginner">beginner</label>
+        <br />
+        <input
+          type="radio"
+          name="experience"
+          id="advance"
+          value="advance"
+          required
+        />
+        <label for="advance">advanced</label>
+      </fieldset>
+      <label for="issue">Issue related to:</label>
+      <select name="issue" id="issue" required>
+        <option value="empty" selected>choose,</option>
+        <option value="androidDevelopment">android app development</option>
+        <option value="java">query related to java</option>
+        <option value="layout">problem with coding layout</option>
+        <option value="other">other issues</option>
+      </select>
+      <br />
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        value="subscribed"
+        required
+      />
+      <label for="subscribe"
+        >I would like to subscribe to the news letter</label
+      >
+      <br />
+      <input type="button" name="submit" id="submit" />
+      <label for="submit">submit</label>
+      <input
+        type="image"
+        name="resetForm"
+        id="resetForm"
+        src="android_developers_logo"
+        alt="reset form"
+      />
+      <br />
+      <label for="progress">submitting form</label>
+      <progress id="progress" value="0" max="100">0%</progress>
+    </div>
+  </body>
+</html>
